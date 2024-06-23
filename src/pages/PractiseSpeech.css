@@ -1,0 +1,102 @@
+.practise{
+    flex: 1;
+    min-height: 100vh;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.practise .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    padding: 20px;
+    color: #585858;
+}
+
+.practise .nav img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.practise .nav .logo{
+    width: 150px;
+}
+
+.practise-container{
+    max-width: 900px;
+    margin: auto;
+}
+
+.practise .prompt{
+    z-index: 1;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 56px;
+    color: #c4c7c5;
+    font-weight: 500;
+    padding: 20px;
+    align-items: center;
+}
+
+.practise .prompt p{
+    text-align: center;
+}
+
+/* Customize Mic */
+.practise .mic{
+    width: 100%;
+}
+
+/* box */
+._1ceqH ._dt3-T{
+    min-height: 230px;
+}
+
+/* p tag */
+._eV_dK{
+    margin-top: 15px;
+}
+
+/* title box */
+._1lB9c{
+    visibility: hidden;
+}
+
+._1ceqH ._1Yplu ._1Pz2d {
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #FFBB00;
+    color: black;
+    cursor: pointer;
+    border: 1px solid #FFBB00;
+    transition: .3s ease all;
+}
+
+._1ceqH ._1Yplu ._1Pz2d:hover{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #fff1cb;
+    color: #FFBB00;
+    cursor: pointer;
+    border: 1px solid #FFBB00;
+    transition: .3s ease all;
+}
+
+._1ceqH ._1Yplu ._2gd2_ {
+    background: white;
+    color: black;
+    margin-left: 15px;
+}
+
+._1ceqH ._1Yplu ._2gd2_:hover{
+    background: black;
+    color: white;
+    margin-left: 15px;
+}
+
