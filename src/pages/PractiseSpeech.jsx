@@ -88,7 +88,6 @@ function PractiseSpeech(){
             <Sidebar/>
             <div className="practise">
                 <div className="nav">
-                    {/* <p>interviU</p> */}
                     <Link to='/'>
                         <img className="logo" src={assets.interviu_logo} alt="" />
                     </Link>
@@ -96,13 +95,17 @@ function PractiseSpeech(){
                 </div>
                 <div className="practise-container">
                     <div className="prompt">
-                        {/* <p>Tell me about yourself</p> */}
                         <Swiper
                             slidesPerView={1}
                             spaceBetween={100}
                         >
                             <SwiperSlide>Tell me about yourself</SwiperSlide>
                             <SwiperSlide>If someone leaves a bad review about our company, what would you do?</SwiperSlide>
+                            <SwiperSlide>Why are you interested in this position?</SwiperSlide>
+                            <SwiperSlide>Give an example of a time you had to deal with a difficult coworker.</SwiperSlide>
+                            <SwiperSlide>Are you willing to relocate?</SwiperSlide>
+                            <SwiperSlide>Describe a time you went above and beyond in your previous role.</SwiperSlide>
+                            <SwiperSlide>What are your career goals?</SwiperSlide>
                         </Swiper>
                     </div>
                     <div className="mic">

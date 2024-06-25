@@ -5,14 +5,14 @@ import './index.css'
 import ContextProvider from './context/Context.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { element } from 'prop-types'
-import WatchVideos from './pages/WatchVideos.jsx'
+import TranscriptVideos from './pages/TranscriptVideos.jsx'
 import PractiseSpeech from './pages/PractiseSpeech.jsx'
 import SearchPrompts from './pages/SearchPrompts.jsx'
 import Error from './pages/Error.jsx'
 
 const router = createBrowserRouter([
   { path: '/', element: <App />, errorElement: <Error />},
-  { path: '/videos', element: <WatchVideos />, errorElement: <Error />},
+  { path: '/transcript-videos', element: <TranscriptVideos />, errorElement: <Error />},
   { path: '/practise-speech', element: <PractiseSpeech />, errorElement: <Error />},
   { path: '/search-prompts', element: <SearchPrompts />, errorElement: <Error />}
 ]);

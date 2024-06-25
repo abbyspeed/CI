@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import './Main.css'
 import { assets } from '../../assets/assets'
+import { Link } from "react-router-dom";
 
 const Main = () => {
     return (
@@ -16,18 +17,24 @@ const Main = () => {
                     <p>Tell me about yourself</p>
                 </div>
                 <div className="cards">
-                    <div className="card">
-                        <p>Watch our latest videos</p>
-                        <img src={assets.footage_coloured} alt="" />
-                    </div>
-                    <div className="card">
-                        <p>Analyze how you appear to the interviewers</p>
-                        <img src={assets.chat_coloured} alt="" />
-                    </div>
-                    <div className="card">
-                        <p>Ask our AI everything you are clueless of</p>
-                        <img src={assets.shines_coloured} alt="" />
-                    </div>
+                    <Link to='/transcript-videos'>
+                        <div className="card">
+                            <p>Watch our latest videos</p>
+                            <img src={assets.footage_coloured} alt="" />
+                        </div>
+                    </Link>
+                    <Link to='/practise-speech'>
+                        <div className="card">
+                            <p>Analyze how you appear to the interviewers</p>
+                            <img src={assets.chat_coloured} alt="" />
+                        </div>
+                    </Link>
+                    <Link to="/search-prompts">
+                        <div className="card">
+                            <p>Ask our AI everything you are clueless of</p>
+                            <img src={assets.shines_coloured} alt="" />
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>

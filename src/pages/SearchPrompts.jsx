@@ -52,7 +52,7 @@ const SearchPrompts = () => {
                           <img onClick={()=>onSent()} src={assets.send} alt="" />
                       </div>
                   </div>
-                  <p className="bottom-info">Hello there</p>
+                  <p className="bottom-info">Our AI coach may make mistakes sometimes, but rest assured you can relieve your job anxiousness by asking away!</p>
               </div>
             </div>
         </div>

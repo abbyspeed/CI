@@ -20,7 +20,12 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.23.1",
     "react-voice-recorder": "^2.1.2",
-    "swiper": "^11.1.4"
+    "swiper": "^11.1.4",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "web-vitals": "^2.1.4"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",

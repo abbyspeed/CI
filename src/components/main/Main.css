@@ -49,6 +49,10 @@
     padding: 20px;
 }
 
+.main .cards a{
+    text-decoration: none;
+}
+
 .main .card{
     height: 200px;
     padding: 15px;

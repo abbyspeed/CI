@@ -23,7 +23,7 @@ const Sidebar = () => {
                     {extended? <p>New Chat</p> : null}
                 </div> */}
                 <div className="space"></div>
-                <Link to="/videos">
+                <Link to="/transcript-videos">
                     <div className="top-item recent-entry">
                         <img className="footage" src={assets.footage} alt="" />
                         {extended ? <p>Videos</p> : null}
