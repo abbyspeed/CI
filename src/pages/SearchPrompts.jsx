@@ -48,7 +48,7 @@ const SearchPrompts = () => {
                   <div className="search-box">
                       <input onChange={(e)=>setInput(e.target.value)} value={input} type="text" placeholder='Enter a prompt here' />
                       <div>
-                          <img onClick={() => newChat()} src={assets.add} alt="" />
+                          <img onClick={()=>newChat()} src={assets.add} alt="" />
                           <img onClick={()=>onSent()} src={assets.send} alt="" />
                       </div>
                   </div>

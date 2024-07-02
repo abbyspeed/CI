@@ -19,7 +19,7 @@ const Main = () => {
                 <div className="cards">
                     <Link to='/transcript-videos'>
                         <div className="card">
-                            <p>Watch our latest videos</p>
+                            <p>Get a transciption for your job training videos</p>
                             <img src={assets.footage_coloured} alt="" />
                         </div>
                     </Link>

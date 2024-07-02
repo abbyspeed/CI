@@ -7,7 +7,7 @@ const sentimentColour = {
     NEUTRAL: 'lightgray'
 }
 
-const Highlighted = ({text, sentiment, entities }) => {
+const Highlighted = ({text, sentiment, entities}) => {
     const entityText = entities.map((e) => e.text);
     const parts = text.split(new RegExp(`(${entityText.join('|')})`, 'g'));
 
@@ -20,7 +20,7 @@ const Highlighted = ({text, sentiment, entities }) => {
                     return (
                         <Tooltip label={matchingEntity.entity_type} key={part}>
                             <Text display="inline" fontSize="xl" fontWeight="bold">
-                                {part}
+                                {part} 
                             </Text>
                         </Tooltip>
                     )
