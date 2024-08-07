@@ -1,8 +1,14 @@
-# React + Vite
+# interviU
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+interviU is a mini web-based application for job-training practices that specifically caters to people with disabilities in mind. 
 
-Currently, two official plugins are available:
+The application features 3 tools- video transcription generator, speech practice and AI career coach. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It is currently in its first iteration, further iterations may be made as necessary.
+
+To run the application, follow the steps below:
+1. Install the dependencies by running the command **npm install –legacy-peer-deps**.
+2. Run the application by typing **npm run dev**.
+3. Open a new terminal to initiate the backend for the video transcription generator by navigating to the src>config folder and typing **node assemblyai.js**.
+
+Have fun!
